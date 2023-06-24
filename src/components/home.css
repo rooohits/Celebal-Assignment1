@@ -1,0 +1,501 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap"); */
+
+
+.navbar {
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  /* top: 10px; */
+  left: 470px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-item {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 12px;
+}
+
+.nav-item:hover {
+  background-color: #555;
+  border: 1px solid none;
+  border-radius: 4px;
+  width: auto;
+}
+
+.btn1 {
+  color: white;
+  width: 91px;
+  height: 40px;
+  background: #f84646;
+  border-radius: 5px;
+  border-style: none;
+  margin-left: 20px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.headingBox {
+  /* border: 1px solid black; */
+  width: 50%;
+  top: 120px;
+  left: 110px;
+  position: absolute;
+  z-index: 1;
+}
+
+.heading {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 60px;
+}
+
+.para {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin-top: -35px;
+}
+
+.landing-image-container {
+  position: relative;
+}
+
+.landing-image {
+  width: 100%;
+  height: auto;
+}
+
+.inputBox{
+  margin-top: 20px;
+}
+
+.iconBox {
+  margin: 100px;
+  text-align: center;
+}
+
+.iconHeading {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  color: #000000;
+}
+
+.iconPara {
+  width: 90%;
+  margin: 50px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: fit-content;
+}
+
+.product-box {
+  width: 28%;
+  margin-bottom: 20px;
+  /* border: 1px solid #ddd; */
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.product-image {
+  width: 30%;
+  height: auto;
+  margin-bottom: -35px;
+}
+
+.product-title {
+  margin-bottom: 5px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #000000;
+}
+
+.product-description {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.frameImage {
+  width: 100%;
+  height: 25%;
+}
+
+.illuBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: fit-content;
+  margin-bottom: 120px;
+}
+
+.desc {
+  width: 35%;
+  /* border: 1px solid #ddd; */
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 70px;
+  margin-left: 30px;
+}
+
+.descHeading {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  color: #2e2e2e;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+
+.descPara {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #808080;
+  margin-top: -20px;
+  margin-left: 15px;
+}
+
+.illuImage {
+  margin-top: 110px;
+  width: 460px;
+  height: 440px;
+  border-radius: 8px;
+}
+
+.btn2 {
+  color: white;
+  width: 140px;
+  height: 40px;
+  background: #f84646;
+  border-radius: 5px;
+  border-style: none;
+  margin-left: 15px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.descHeading2 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  color: #2e2e2e;
+  margin-top: 35px;
+  margin-left: -50px;
+}
+
+.descPara2 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #808080;
+  margin-top: -20px;
+  margin-left: -50px;
+}
+
+.illuImage2 {
+  margin-top: 110px;
+  width: 460px;
+  height: 440px;
+  border-radius: 8px;
+  margin-left: 35px;
+}
+
+.btn3 {
+  color: white;
+  width: 140px;
+  height: 40px;
+  background: #f84646;
+  border-radius: 5px;
+  border-style: none;
+  margin-left: -50px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.greySpace {
+  width: 100%;
+  height: auto;
+  background-color: #f4f5f7;
+  text-align: center;
+}
+
+.greyHeading {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+  padding-top: 50px;
+}
+
+.greyPara {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+  margin-top: -50px;
+}
+
+.greyImage {
+  width: 65%;
+  height: auto;
+  margin-top: 15px;
+}
+
+.userBox {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+
+.userImage {
+  margin-top: 100px;
+  width: 110px;
+  height: auto;
+}
+
+.userHeading {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.userPara {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+  margin-top: -25px;
+}
+
+.btn4 {
+  color: white;
+  width: 180px;
+  height: 60px;
+  background: #f84646;
+  border-radius: 5px;
+  border-style: none;
+  margin-left: 15px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 20px;
+}
+
+.footer {
+  background-color: #f8464a;
+  width: 100%;
+  height: 500px;
+}
+
+.footerBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.heading2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+}
+
+.col1 {
+  list-style: none;
+  width: auto;
+  /* border: 1px solid #ddd; */
+  padding: 10px;
+  margin-top: 65px;
+  margin-left: 70px;
+  margin-right: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #e6e6e6;
+}
+
+.col1 li {
+  margin-bottom: 20px;
+}
+
+.col2 {
+  color: white;
+  list-style: none;
+  width: auto;
+  /* border: 1px solid #ddd; */
+  padding: 10px;
+  margin-top: 65px;
+  margin-left: 60px;
+  margin-right: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #e6e6e6;
+}
+
+.col2 li {
+  margin-bottom: 20px;
+}
+
+.col3 {
+  color: white;
+  list-style: none;
+  width: auto;
+  /* border: 1px solid #ddd; */
+  padding: 10px;
+  margin-top: 65px;
+  margin-left: 60px;
+  margin-right: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #e6e6e6;
+}
+
+.col3 li {
+  margin-bottom: 20px;
+}
+
+.col4 {
+  color: white;
+  list-style: none;
+  width: auto;
+  /* border: 1px solid #ddd; */
+  padding: 10px;
+  margin-top: 65px;
+  margin-left: 60px;
+  margin-right: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #e6e6e6;
+}
+
+.col4 li {
+  margin-bottom: 20px;
+}
+
+.col5 {
+  margin-top: 50px;
+  width: 15%;
+  /* border: 1px solid #ddd; */
+  padding: 10px;
+}
+
+.col5 li {
+  margin-bottom: 20px;
+}
+
+.col5 img {
+  position: relative;
+  top: 355px;
+  right: 25px;
+  width: 160px;
+  height: auto;
+}
+
+.copyright {
+  position: relative;
+  left: 70px;
+  bottom: 15px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+}
